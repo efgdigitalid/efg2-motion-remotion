@@ -1,6 +1,8 @@
 {
   "name": "efg-motion-remotion",
   "version": "1.0.0",
+  "private": true,
+  "workspaces": ["web-preview"],
   "description": "EFG Digital - Abstract Motion Graphics generator built with Remotion, for Adobe Stock / stock footage submissions.",
   "scripts": {
     "start": "remotion studio",

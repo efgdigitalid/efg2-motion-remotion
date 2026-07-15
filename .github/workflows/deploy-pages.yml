@@ -30,13 +30,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        working-directory: web-preview
+      - name: Install dependencies (root + web-preview via workspaces)
         run: npm install
 
       - name: Build web preview
-        working-directory: web-preview
-        run: npm run build
+        run: npm run build --workspace=web-preview
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
