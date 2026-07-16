@@ -63,4 +63,8 @@ export const RENDER_JOBS = [
   // --- TitleIntro (untuk promosi EFG Digital, bukan stock loop) ---
   { composition: "TitleIntro", outputName: "title-efgdigital-indigo", props: { theme: "midnightIndigo", title: "EFG DIGITAL", subtitle: "Motion Graphics & Creative Tools" } },
   { composition: "TitleIntro", outputName: "title-efgdigital-gold", props: { theme: "roseGold", title: "EFG DIGITAL", subtitle: "AI-Powered Creative Suite" } },
-];
+{ composition: "SmokeFog", outputName: "smokefog-sunsetgold", props: {
+  "theme": "sunsetGold",
+  "layerCount": 6,
+  "driftSpeed": 1
+} },];
